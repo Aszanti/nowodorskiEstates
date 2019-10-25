@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="canonical" href="www.addItem.com"/>
+      <title>add item</title>
+      <meta name="description" content="add item" />
+      <meta charset="UTF-8">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="./css/resetCSS.css">
+      <link rel="stylesheet" href="./css/main.css" type="text/css"/>
+      <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <!--[if lt IE 9]>
+      <script src="./js/ie.js"></script>
+      <link rel="stylesheet" href="./css/main.css" type="text/css"/>
+      <![endif]-->
+    </head>
+    <body>
+      <section class="add size">
+          <div class="add__container">
+              <input type="text" class="add__city" placeholder="city">
+              <input type="text" class="add__street" placeholder="street">
+              <input type="text" class="add__property" placeholder="property">
+              <input type="text" class="add__apartment" placeholder="apartment">
+              <input type="number" class="add__price" placeholder="price">
+              <input type="number" class="add__type" placeholder="type">
+              <input type="text" class="add__description" placeholder="description">
+              <button type="button" class="buttonAdd add__item">dodaj wpis</button>
+          </div>
+      </section>
+      <div class="line"></div>
+      <section class="size itemsBox">
+          <p class="header">Twoje wpisy:</p>
+
+          <div class="post__list" id="list">
+
+
+          <!-- 
+            <div class="item cl" id="item-0">
+                <div class="city">Miasto</div>
+                <div class="street">Ulica</div>
+                <div class="property">Budynek</div>
+                <div class="apartment">Lokal</div>
+                <div class="price">Cena</div>
+                <div class="type">Typ</div>
+                <div class="description">Opis</div>
+                <div class="item__buttons">
+                    <button type="button" class="button update__item">edytuj</button>
+                    <button type="button" class="button remove__item">usuń</button>
+                </div>
+                <div class="popu__overlay">
+                    <div class="popup__content cl">
+                        <input type="hidden" class="item__id" value="id"> 
+                        <div class="cityPopup">Miasto:
+                            <input type="text" class="item__city" value="city">
+                        </div>
+                        <div class="streetPopup">Ulica:
+                            <input type="text" class="item__street" value="street">
+                        </div>
+                        <div class="propertyPopup">Budynek:
+                            <input type="text" class="item__property" value="property">
+                        </div>
+                        <div class="apartmentPopup">Lokal:
+                            <input type="text" class="item__apartment" value="apartment">
+                        </div>
+                        <div class="pricePopup">Cena:
+                            <input type="number" class="item__price" value="price">
+                        </div>
+                        <div class="typePopup">Typ:
+                            <input type="number" class="item__type" value="type">
+                        </div>
+                        <div class="descriptionPopup">Opis:
+                            <input type="text" class="item__description" value="description">
+                        </div>
+                        <button type="button" class="button save__item">zapisz</button>
+                        <button type="button" class="button cancel__item">zamknij</button>
+                    </div>
+                </div>
+            </div>
+          -->
+
+
+          </div>
+
+          <button type="button" class="button remove__all">usuń wszystkie wpisy</button>
+      </section>
+      <div class="line"></div>
+      <footer class="footerBox">
+        <div class="size">nowodorski estates</div>
+      </footer>
+      <script src="./js/main.js"></script>
+    </body>
+</html>
+    

@@ -1,0 +1,167 @@
+﻿body {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.size {
+    width: 1024px;
+    margin: 0 auto; 
+}
+.header {
+    font-size: 18px;
+    color: #00ab58;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.line {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00ab58+0,50aa7d+100 */
+    background: #00ab58; /* Old browsers */
+    background: -moz-linear-gradient(left,  #00ab58 0%, #50aa7d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #00ab58 0%,#50aa7d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #00ab58 0%,#50aa7d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ab58', endColorstr='#50aa7d',GradientType=1 ); /* IE6-9 */
+    height: 5px;
+    margin: 5px 0;
+}
+/* ---------- TOP ---------- */
+.add .buttonAdd {
+    background-color: #00ab58;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: solid 1px #00ab58;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px 0;
+}
+.add .add__container {
+    margin: 50px 0;
+}
+.add .add__container input {
+    margin: 10px 25px 10px 0;
+    height: 30px;
+    width: 300px;
+    border: solid 1px #e7e7e7;
+    border-radius: 5px;
+    padding: 0 5px;
+    background-color: #EFEFEF;
+}
+
+
+/* ---------- LIST ---------- */
+.itemsBox {
+    position: relative;
+}
+.post__list .item .city, .post__list .item .street, .post__list .item .property, .post__list .item .apartment, .post__list .item .price, .post__list .item .type, .post__list .item .description, .post__list .item button {
+    float: left;
+}
+.post__list .item .city, .post__list .item .street {
+    width: 120px;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+}
+.post__list .item .property, .post__list .item .apartment, .post__list .item .type {
+    width: 40px;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+}
+.post__list .item .price {
+    width: 80px;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+}
+.post__list .item .description {
+    width: 400px;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+}
+.post__list .item .item__buttons{
+    width: 120px;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+}
+.post__list .item button {
+    background-color: #00ab58;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: solid 1px #00ab58;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 0 5px;
+}
+.post__list .item:first-child { 
+    border-top: 1px solid #e7e7e7; 
+}
+.post__list .item {
+    padding: 13px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/* ---------- POPUP ---------- */
+.popup__overlay {
+    visibility:hidden;
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    top: 0;
+    left: 200px;
+}
+.popup__overlay .item div {
+    width: 120px;
+}
+
+.popup__content {
+    width: 100%;
+    visibility:hidden;
+    background-color: #EFEFEF;
+    padding: 20px;
+    box-sizing: border-box;
+    border: solid 3px #e7e7e7;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 300px 17px rgba(163,163,163,1);
+    -moz-box-shadow: 0px 0px 300px 17px rgba(163,163,163,1);
+    box-shadow: 0px 0px 300px 17px rgba(163,163,163,1);
+}
+.popup__content div {
+  height: 40px;
+}
+.popup__content input {
+    margin-left: 20px;
+    height: 30px;
+    width: 300px;
+    border: solid 1px #e7e7e7;
+    border-radius: 5px;
+    padding: 0 5px;
+    background-color: #F7F7F7;
+  }
+.popup__overlay.active{
+    visibility:visible;
+}
+
+.popup__content.active {
+    visibility:visible;
+}
+
+.itemsBox .remove__all {
+    background-color: #00ab58;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: solid 1px #00ab58;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 30px 0;
+}
+.footerBox {
+    text-align: center;
+    color: #00ab58;
+    margin: 10px 0;
+}
+
